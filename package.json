@@ -1,0 +1,60 @@
+{
+  "name": "parse-avenue-user",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/Nafhed/GrAvenue"
+  },
+  "keywords": [
+    "parse",
+    "react",
+    "user",
+    "avenue"
+  ],
+  "author": "Nathan Brettell",
+  "license": "MIT",
+  "bugs": "https://github.com/Nafhed/GrAvenue/issues",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "style-loader": "0.16.0",
+    "css-loader": "0.27.3",
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.2",
+    "babelify": "^7.3.0",
+    "redbox-react": "^1.3.2",
+    "vinyl-source-stream": "^1.1.0",
+    "browserify": "^14.1.0",
+    "browserify-css": "^0.10.0",
+    "cssify": "^1.0.3",
+    "watchify": "^3.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-debug": "^1.0.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-streamify": "^1.0.2",
+    "chalk": "^1.1.3",
+    "utils-merge": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-sass": "^2.3.2",
+    "react-addons-create-fragment": "15.3.2",
+    "uglify-js": "^2.6.1",
+    "webpack": "^1.12.9",
+    "webpack-stream": "^3.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}

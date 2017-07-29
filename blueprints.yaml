@@ -1,0 +1,26 @@
+name: Avenue User
+version: 0.1
+description: User Management for Avenue
+icon: map-marker
+author:
+  name: Nathan Brettell
+  email: nathanbrettell@gmail.com
+  url: http://nathanbrettell.com
+homepage: 
+keywords: admin, plugin, manager, panel, Avenue, venues, events
+bugs: 
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
